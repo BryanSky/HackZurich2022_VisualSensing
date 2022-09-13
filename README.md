@@ -4,12 +4,32 @@ Superficial damage to the tires, body and undercarriage of a commercial vehicle 
 
 Automated visual inspection can help catch these damages, but what does the interface between this automated system and the fleet manager look like?
 
-Question: How might we assist a fleet manager to ​better monitor and manage the status of their vehicles?
+![image](https://user-images.githubusercontent.com/113338125/189901942-7b4d55a8-438f-49fe-8a7d-d052503feeff.png)
 
-Challenge: Develop a concept that assists a fleet manager to better understand and digitally sense the health of the fleet.
 
-Hints:​
+### Data provided
 
+- Description of damaged car datasets with annotations 
+- Pre-trained model(s) to detect vehicle's part and damages
+- Validation dataset
+
+
+### Goal 
+Design an end-to-end pipeline that is capable of capturing images, detecting damages, and presenting this info to the fleet manager. The solution should serve a fleet manager to catch damages sooner, and provide more insight into this aspect of their operations.
+
+### Our expectation
+- Presentation with a clear problem statement & solution definition (a business opportunity potentially supported by market demand).
+- Provide Illustration of results as much as possible.
+- Mockup/wireframe of digital solution for a fleet manager with a prescriptive / decision making feature.
+
+
+### Problem statement 
+
+*Question:* How might we assist a fleet manager to better monitor and manage the status of their vehicles?
+
+*Challenge:* Develop a concept that assists a fleet manager to better understand and digitally sense the health of the fleet.
+
+*Hints:*
 - Focus on identifying the right customer problem to solve, rather than jumping straight into the technical solution.​
 - Consider similar approaches in other industries, could that work for this topic?​
 
