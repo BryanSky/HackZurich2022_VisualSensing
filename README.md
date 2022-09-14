@@ -6,6 +6,16 @@ Automated visual inspection can help catch these damages, but what does the inte
 
 ![image](https://user-images.githubusercontent.com/113338125/189901942-7b4d55a8-438f-49fe-8a7d-d052503feeff.png)
 
+### Background
+
+Fleet Managers are operating on a tiny margin and a large source of their costs are on unplanned breakdowns and fines.
+An Automated Inspection Program at a yard to perform pre- and post trip vehicle inspection can optimize the operation costs.
+Let's imagine that fleets' trucks undergo a quick inspection at Yard's gate while entering. Then its drivers don't have extra responsibilities and the fleet manager is alerted of any issues or broken parts before they become issues.
+
+![image](https://user-images.githubusercontent.com/113338125/190144481-8c3b65aa-e8f5-4d58-bc1e-1ca2b65d675e.png)
+
+Potentially the visual inspection of the vehicles can be done at the yard with an autonomous robotic arm which operates continuosly at yard level. 
+Here the main task is to build a workflow from i) image capturing, toward ii) vehicle part and damages identification, and iii) UX design on how the fleet manager can make use of such a tool to optimize the fleet operation.
 
 ### Data provided
 
