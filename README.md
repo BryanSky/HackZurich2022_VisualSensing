@@ -23,12 +23,41 @@ In the following you see how the UX for an end user (fleet manager) might look l
 <img src="https://user-images.githubusercontent.com/113338125/190345509-9e861d4e-558a-4358-999b-9e114f518495.png"  width="700">
 
 
+### Problem statement 
+
+*Question:* How might we assist a fleet manager to better monitor and manage the status of their vehicles?
+
+*Challenge:* Develop a concept that assists a fleet manager to better understand and digitally sense the health of the fleet.
+
+*Hints:*
+- Focus on identifying the right customer problem to solve, rather than jumping straight into the technical solution.
+- Consider similar approaches in other industries, could that work for this topic?
+
+
 
 ### Data provided
 
-- Description of damaged car datasets with annotations 
-- Pre-trained model(s) to detect vehicle's part and damages
-- Validation dataset
+Here we provide series of annotated image dataset from vehicle damages. Annonation information includes the coordinates of bounding boxes and polygons of the car damage in the images. The annotation is in two folds:
+- In files "COCO_train_annos.json" (for training) and "COCO_val_annos.json" (for validation), _damage_ is the only category. It includes coordinations of all bounding boxes of damages in the image. The sample is shown below:
+<img src="https://user-images.githubusercontent.com/113338125/190369823-bac748f6-ab28-4509-822a-eb31ce506186.png"  width="500">
+
+- In files "COCO_mul_train_annos.json" (for training) and "COCO_mul_val_annos.json" (for validation), five categories namely _headlamp, front bumper, hood, door, rear bumper_ are annotated with coordinates of bounding boxes of the vehicle part identified in the image. The sample is shown below:
+<img src="https://user-images.githubusercontent.com/113338125/190369875-9e7a4046-d2c3-42e1-93d5-58ecb4fe30b9.png"  width="500">
+
+The annotations are from: 
+- 61 images for training (with annotations of "COCO_train_annos.json" and "COCO_mul_train_annos.json"), 
+- 11 images for validation 11 (with annotations "COCO_val_annos.json" and "COCO_mul_val_annos.json").
+
+
+For your ease and knowing that training a model from scratch is especially expensive, we provide a notebook with a pretrained detection model of [Detectron 2](https://github.com/facebookresearch/detectron2), which refines the model with the annotated **COCO** dataset mentioned above. 
+To achieve the goal of recognizing which part of a vehicle is damaged, a possible solution is using two models which is used in the notebook. 
+First model is trained for detecting damages in the image, whose output is the coordinates of the damages in the image. Second model is developed to segment the vehicle's parts shown in the image, e.g., hood, door, bumper, and output the coordinates of the car parts. After obtaining the locations of damages and locations of all car parts in the image, we used the results to detect which part is damaged in the vehicle. 
+<img src="https://user-images.githubusercontent.com/113338125/190371487-aa4e8648-915c-458d-91df-a7112a25c79c.png"  width="500">
+
+For testing the result of the algorithm (as deliverable) we provide:
+- Test images (~700 images)
+- Labeled on damage part (Test_damage_labeled.xlsx)
+
 
 
 ### Goal 
@@ -43,15 +72,6 @@ Design an end-to-end pipeline that is capable of capturing images, detecting dam
 - Mockup/wireframe of digital solution for a fleet manager with a prescriptive / decision making feature.
 
 
-### Problem statement 
-
-*Question:* How might we assist a fleet manager to better monitor and manage the status of their vehicles?
-
-*Challenge:* Develop a concept that assists a fleet manager to better understand and digitally sense the health of the fleet.
-
-*Hints:*
-- Focus on identifying the right customer problem to solve, rather than jumping straight into the technical solution.
-- Consider similar approaches in other industries, could that work for this topic?
 
 
 ### Downloads
