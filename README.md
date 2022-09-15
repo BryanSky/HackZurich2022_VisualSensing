@@ -37,7 +37,7 @@ In the following you see how the UX for an end user (fleet manager) might look l
 
 ### Data provided
 
-Here we provide series of annotated image dataset from vehicle damages. Annonation information includes the coordinates of bounding boxes and polygons of the car damage in the images. The annotation is in two folds:
+Here we provide series of annotated image dataset from vehicle damages. Annotation information includes the coordinates of bounding boxes and polygons of the car damage in the images. The annotation is in two folds:
 - In files "COCO_train_annos.json" (for training) and "COCO_val_annos.json" (for validation), _damage_ is the only category. It includes coordinations of all bounding boxes of damages in the image. The sample is shown below:
 <img src="https://user-images.githubusercontent.com/113338125/190369823-bac748f6-ab28-4509-822a-eb31ce506186.png"  width="400">
 
