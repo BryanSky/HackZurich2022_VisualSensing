@@ -65,6 +65,8 @@ Design an end-to-end pipeline that is capable of capturing images, detecting dam
 
 <img src="https://user-images.githubusercontent.com/113338125/190353635-86a9b768-bd47-465e-b3b1-f5464e1aad59.png"  width="700">
 
+It contains a dashboard on a type of analysis a fleet manager can review and guided through tangible actions. You task is to wireframe the process and storyline for an actionable decision making process and mock them up in few steps.
+
 
 ### Our expectation
 - Presentation with a clear problem statement & solution definition (a business opportunity potentially supported by market demand).
