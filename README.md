@@ -40,14 +40,15 @@ In the following you see how the UX for an end user (fleet manager) might look l
 Here we provide series of annotated image dataset from vehicle damages. Annotation information includes the coordinates of bounding boxes and polygons of the car damage in the images. The annotation is in two folds:
 - In files "COCO_train_annos.json" (for training) and "COCO_val_annos.json" (for validation), _damage_ is the only category. It includes coordinations of all bounding boxes of damages in the image. The sample is shown below:
 
-<img src="https://user-images.githubusercontent.com/113338125/190369823-bac748f6-ab28-4509-822a-eb31ce506186.png"  width="400">
+<img src="https://user-images.githubusercontent.com/113338125/190369875-9e7a4046-d2c3-42e1-93d5-58ecb4fe30b9.png"  width="400">
 
 - In files "COCO_mul_train_annos.json" (for training) and "COCO_mul_val_annos.json" (for validation), five categories namely _headlamp, front bumper, hood, door, rear bumper_ are annotated with coordinates of bounding boxes of the vehicle part identified in the image. The sample is shown below:
 
-<img src="https://user-images.githubusercontent.com/113338125/190369875-9e7a4046-d2c3-42e1-93d5-58ecb4fe30b9.png"  width="400">
+
+<img src="https://user-images.githubusercontent.com/113338125/190369823-bac748f6-ab28-4509-822a-eb31ce506186.png"  width="400">
 
 The annotations are from: 
-- 61 images for training (with annotations of "COCO_train_annos.json" and "COCO_mul_train_annos.json"), 
+- 59 images for training (with annotations of "COCO_train_annos.json" and "COCO_mul_train_annos.json"), 
 - 11 images for validation 11 (with annotations "COCO_val_annos.json" and "COCO_mul_val_annos.json").
 
 
@@ -59,7 +60,7 @@ First model is trained for detecting damages in the image, whose output is the c
 
 For testing the result of the algorithm (as deliverable) we provide:
 - Test images (~700 images)
-- File with Labels on damaged part for model prediction accuracy evaluation (Test_damage_labeled.xlsx)
+- File with Labels on damaged part for model prediction accuracy evaluation (Test_damage_labeled.csv)
 
 
 
