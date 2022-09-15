@@ -7,6 +7,7 @@ Automated visual inspection can help catch these damages, but what does the inte
 ![image](https://user-images.githubusercontent.com/113338125/189901942-7b4d55a8-438f-49fe-8a7d-d052503feeff.png)
 
 
+
 ### Background
 
 Fleet Managers are operating on a tiny margin and a large source of their costs are on unplanned breakdowns and fines.
@@ -36,7 +37,10 @@ In the following you see how the UX for an end user (fleet manager) might look l
 
 
 ### Goal 
-Design an end-to-end pipeline that is capable of capturing images, detecting damages, and presenting this info to the fleet manager. The solution should serve a fleet manager to catch damages sooner, and provide more insight into this aspect of their operations.
+Design an end-to-end pipeline that is capable of capturing images, detecting damages, and presenting this info to the fleet manager. The solution should serve a fleet manager to catch damages sooner, and provide more insight into this aspect of their operations. Take a look at the example below:
+
+<img src="https://user-images.githubusercontent.com/113338125/190353635-86a9b768-bd47-465e-b3b1-f5464e1aad59.png"  width="700">
+
 
 ### Our expectation
 - Presentation with a clear problem statement & solution definition (a business opportunity potentially supported by market demand).
@@ -51,8 +55,8 @@ Design an end-to-end pipeline that is capable of capturing images, detecting dam
 *Challenge:* Develop a concept that assists a fleet manager to better understand and digitally sense the health of the fleet.
 
 *Hints:*
-- Focus on identifying the right customer problem to solve, rather than jumping straight into the technical solution.​
-- Consider similar approaches in other industries, could that work for this topic?​
+- Focus on identifying the right customer problem to solve, rather than jumping straight into the technical solution.
+- Consider similar approaches in other industries, could that work for this topic?
 
 
 ### Downloads
