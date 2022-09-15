@@ -1,14 +1,9 @@
 ## Visual Sensing & Vehicle Health
 
-Superficial damage to the tires, body and undercarriage of a commercial vehicle is a problem to a fleet, causing unforeseen costs or in the worst case leading to more critical problems if not resolved.
+Superficial damage to the tires, body and undercarriage of a commercial vehicle is a problem to a fleet, causing unforeseen costs or in the worst case leading to more critical problems if not resolved. Automated visual inspection can help catch these damages, but what does the interface between this automated system and the fleet manager look like?
 
-Automated visual inspection can help catch these damages, but what does the interface between this automated system and the fleet manager look like?
+<!--![image](https://user-images.githubusercontent.com/113338125/189901942-7b4d55a8-438f-49fe-8a7d-d052503feeff.png)-->
 
-![image](https://user-images.githubusercontent.com/113338125/189901942-7b4d55a8-438f-49fe-8a7d-d052503feeff.png)
-
-
-
-### Background
 
 Fleet Managers are operating on a tiny margin and a large source of their costs are on unplanned breakdowns and fines.
 An Automated Inspection Program at a yard to perform pre- and post trip vehicle inspection can optimize the operation costs.
