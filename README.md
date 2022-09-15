@@ -1,4 +1,4 @@
-## Visual Sensing & Vehicle Health
+## Challenge - Visual Sensing & Vehicle Health
 
 Superficial damage to the tires, body and undercarriage of a commercial vehicle is a problem to a fleet, causing unforeseen costs or in the worst case leading to more critical problems if not resolved. Automated visual inspection can help catch these damages, but what does the interface between this automated system and the fleet manager look like?
 
