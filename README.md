@@ -56,7 +56,7 @@ First model is trained for detecting damages in the image, whose output is the c
 
 For testing the result of the algorithm (as deliverable) we provide:
 - Test images (~700 images)
-- Labeled on damage part (Test_damage_labeled.xlsx)
+- File with Labels on damaged part for model prediction accuracy evaluation (Test_damage_labeled.xlsx)
 
 
 
